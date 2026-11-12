@@ -6,7 +6,7 @@
 
 ## 窗口版
 
-在 [GitHub Releases](https://github.com/shenxuekai/dev-ports/releases) 下载 `devports-win-x64.zip`，解压后双击 `devports.exe`。便携版面向 Windows x64，使用系统自带的 .NET Framework 和 Windows PowerShell 5.1。
+在 [GitHub Releases](https://github.com/shenxuekai/dev-ports/releases) 下载 `devports-win-x64.zip`，解压后双击 `devports.exe`。便携版面向 Windows x64，使用系统自带的 .NET Framework 和 Windows PowerShell 5.1。v0.1.0 试用包使用中文界面。从当前源码启动或重新构建即可使用语言选项。
 
 也可以从源码启动。将两个入口脚本、`DevPorts.Core.ps1` 和 `TcpListeners.cs` 放在同一目录，在 Windows PowerShell 5.1 或 PowerShell 7 中运行以下命令。
 
@@ -14,7 +14,7 @@
 .\devports-gui.ps1
 ```
 
-窗口默认每秒刷新一次 TCP 监听列表。取消勾选「自动刷新」可以暂停，也可以随时点击「刷新」。输入完整端口号（如 `3000`）或进程名的一部分（如 `node`）可以筛选，清空搜索框即可查看全部。
+窗口默认使用英文。在右上角 **Language** 中选择「简体中文」，界面和已有端口记录会一起切换。窗口默认每秒刷新一次 TCP 监听列表。取消勾选「自动刷新」可以暂停，也可以随时点击「刷新」。输入完整端口号（如 `3000`）或进程名的一部分（如 `node`）可以筛选，清空搜索框即可查看全部。
 
 点击列表中的一行即可跟踪该端口的所有监听地址。也可以在搜索框输入端口号，再点击「跟踪端口」，提前观察一个还没有监听的端口。端口释放后，即使它从列表消失，窗口也会继续跟踪。
 

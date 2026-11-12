@@ -8,8 +8,8 @@ using System.Windows.Forms;
 [assembly: AssemblyTitle("devports")]
 [assembly: AssemblyProduct("devports")]
 [assembly: AssemblyDescription("Inspect local TCP listeners on Windows")]
-[assembly: AssemblyVersion("0.1.0.0")]
-[assembly: AssemblyFileVersion("0.1.0.0")]
+[assembly: AssemblyVersion("0.2.0.0")]
+[assembly: AssemblyFileVersion("0.2.0.0")]
 
 internal static class Launcher
 {
@@ -34,7 +34,7 @@ internal static class Launcher
         }
         catch (Exception error)
         {
-            MessageBox.Show("无法启动 devports。\n\n" + error.Message, "devports",
+            MessageBox.Show("Could not start devports.\n\n" + error.Message, "devports",
                 MessageBoxButtons.OK, MessageBoxIcon.Error);
             return 1;
         }

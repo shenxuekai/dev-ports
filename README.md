@@ -2,15 +2,15 @@
 
 English · [简体中文](README.zh-CN.md)
 
-Find out which process is listening on a local TCP port on Windows. When a dev server reports `EADDRINUSE`, devports shows who owns the port and helps you see when the port is released or a new process takes over.
+devports is a lightweight Windows tool for finding which process is listening on a TCP port and tracking when it starts, stops, or changes. Use it to troubleshoot `EADDRINUSE` and check what happens to a port when a local service restarts.
 
 ## Desktop app
 
-Download `devports-win-x64.zip` from [GitHub Releases](https://github.com/shenxuekai/dev-ports/releases), extract it, and double-click `devports.exe`. The portable build targets Windows x64 and uses the built-in .NET Framework and Windows PowerShell 5.1.
+Download `devports-win-x64.zip` from [GitHub Releases](https://github.com/shenxuekai/dev-ports/releases), extract it, and double-click `devports.exe`. The portable build targets Windows x64 and uses the built-in .NET Framework and Windows PowerShell 5.1. The v0.1.0 preview has a Chinese UI. Run the current source or build it locally to use the language selector.
 
-The desktop UI is in Simplified Chinese. Search by an exact port number such as `3000` or part of a process name such as `node`. Clear the search to see all listeners. The list refreshes every second by default. Uncheck **自动刷新** (Auto-refresh) to pause or click **刷新** (Refresh) for a manual update.
+The desktop app opens in English. Select **简体中文** (Simplified Chinese) from **Language** to switch the interface and existing port history. Search by an exact port number such as `3000` or part of a process name such as `node`. Clear the search to see all listeners. The list refreshes every second by default. Uncheck **Auto-refresh** to pause or click **Refresh** for a manual update.
 
-Click a row to track the port across all its listening addresses. To track a port before anything is listening, enter its number and click **跟踪端口** (Track port). Tracking continues when the port disappears from the list.
+Click a row to track the port across all its listening addresses. To track a port before anything is listening, enter its number and click **Track port**. Tracking continues when the port disappears from the list.
 
 The history shows when a listener starts or stops, or when its owning process changes. Each entry includes the time, address, process name, and PID. The app keeps up to 200 entries for the selected port and starts a new history when you switch ports.
 

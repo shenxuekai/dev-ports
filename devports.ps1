@@ -54,7 +54,7 @@ try {
 
     if ($Command -eq 'help') {
         Write-Output @'
-devports v0.1.0 - Inspect local Windows TCP listeners.
+devports v0.2.0 - Inspect local Windows TCP listeners.
 
   .\devports.ps1 list
   .\devports.ps1 who 3000
