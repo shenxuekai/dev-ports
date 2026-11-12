@@ -46,3 +46,11 @@ Watching TCP port 3000 every 1s. Press Ctrl+C to stop.
 在 Windows x64 上，从项目目录运行 `./build-portable.ps1`。输出为 `dist/devports.exe`、`dist/devports-win-x64.zip` 和压缩包的 SHA-256 校验文件 `dist/devports-win-x64.zip.sha256`。压缩包内附 MIT 许可证。
 
 [MIT 许可证](LICENSE)
+
+## 支持 devports
+
+如果 devports 帮你省了点排查端口的时间，欢迎用支付宝或微信支付请我喝杯咖啡。谢谢你试用这个小工具！
+
+| 支付宝 | 微信支付 |
+| :---: | :---: |
+| <a href="docs/support/alipay.jpg"><img src="docs/support/alipay.jpg" alt="支付宝收款码" width="260"></a> | <a href="docs/support/wechat-pay.jpg"><img src="docs/support/wechat-pay.jpg" alt="微信支付收款码" width="260"></a> |

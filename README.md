@@ -46,3 +46,11 @@ devports reads the local TCP table and process information without modifying the
 On Windows x64, run `.\build-portable.ps1` from the project directory. The build writes `devports.exe`, `devports-win-x64.zip`, and `devports-win-x64.zip.sha256` to `dist`. The ZIP includes the MIT license.
 
 [MIT License](LICENSE)
+
+## Support devports
+
+If devports saved you some time tracking down a port conflict, feel free to buy me a coffee via Alipay or WeChat Pay. Thanks for giving devports a try!
+
+| Alipay | WeChat Pay |
+| :---: | :---: |
+| <a href="docs/support/alipay.jpg"><img src="docs/support/alipay.jpg" alt="Alipay payment QR code" width="260"></a> | <a href="docs/support/wechat-pay.jpg"><img src="docs/support/wechat-pay.jpg" alt="WeChat Pay payment QR code" width="260"></a> |
